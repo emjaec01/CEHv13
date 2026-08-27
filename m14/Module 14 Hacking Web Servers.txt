@@ -20,3 +20,28 @@ Module 14: Hacking Web Servers
 -A penetration (pen) tester or ethical hacker for an organization must provide security to the company's web server.
 -This includes performing checks on the web server for vulnerabilities, misconfigurations, unpatched security flaws, and improper authentication with external systems.
 
+
+Objective
+The objective of this lab is to perform web server hacking and other tasks that include, but are not limited to:
+
+Footprint a web server using various information-gathering tools and inbuilt commands
+Enumerate web server information
+Crack remote passwords
+
+Overview of Web Server
+Most people think a web server is just hardware, but a web server also includes software applications. In general, a client initiates the communication process through HTTP requests. When a client wants to access any resource such as web pages, photos, or videos, then the client's browser generates an HTTP request to the web server. Depending on the request, the web server collects the requested information or content from data storage or the application servers and responds to the client's request with an appropriate HTTP response. If a web server cannot find the requested information, then it generates an error message.
+
+Lab Tasks
+Ethical hackers or pen testers use numerous tools and techniques to hack a target web server. Recommended labs that will assist you in learning various web server hacking techniques include:
+
+Footprint the web server
+
+Footprint a web server using Netcat and Telnet
+Enumerate web server information using Nmap Scripting Engine (NSE)
+Perform a web server attack
+
+Crack FTP credentials using a Dictionary Attack
+Gain Access to Target Web Server by Exploiting Log4j Vulnerability
+Perform a web server hacking using AI
+
+Perform webserver footprinting and attacks using ShellGPT
