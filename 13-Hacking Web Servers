@@ -1,0 +1,47 @@
+Module 14: Hacking Web Servers
+
+-Most organizations consider their web presence to be an extension of themselves. They create their web presence on the World Wide Web using websites associated with their business.
+-Most online services are implemented as web applications.
+-Examples of web services: Online banking, Search engines, email applications, and social networks
+-Web content is generated in real-time by a software application running on the server-side.
+-Web servers are a critical component of web infrastructure.
+-A single vulnerability in a web server's configuration may lead to a security breach on websites which makes web server security critical to the normal functioning of an organization.
+
+-Hackers attack web servers to steal credentials, passwords, and business information.
+-Some sample of attacks: DoS, DDoS, DNS server hijacking, DNS amplification, directory traversal, Man-in-the-Middle (MITM), sniffing, phishing, website defacement, web server misconfiguration, HTTP response splitting, web cache poisoning, SSH brute force, web server password cracking, and other methods.
+-Attackers can exploit a poorly configured web server with known vulnerabilities to compromise the security of the web application.
+-A leaky server can harm an organization.
+
+-In the area of web security, despite strong encryption on the browser-server, web users still have no assurance about what happens at the other end.
+-This module presents a security application that augments web servers with trusted co-servers composed of high-assurance secure co-processors, configured with a publicly known guardian program.
+-Web users can then establish their authenticated, encrypted channels with a trusted co-server, which can act as a trusted third party in the browser-server interaction. 
+-Systems are constantly being attacked, so IT security professionals need to be aware of the common attacks on web server applications.
+
+-A penetration (pen) tester or ethical hacker for an organization must provide security to the company's web server.
+-This includes performing checks on the web server for vulnerabilities, misconfigurations, unpatched security flaws, and improper authentication with external systems.
+
+
+Objective
+The objective of this lab is to perform web server hacking and other tasks that include, but are not limited to:
+
+Footprint a web server using various information-gathering tools and inbuilt commands
+Enumerate web server information
+Crack remote passwords
+
+Overview of Web Server
+Most people think a web server is just hardware, but a web server also includes software applications. In general, a client initiates the communication process through HTTP requests. When a client wants to access any resource such as web pages, photos, or videos, then the client's browser generates an HTTP request to the web server. Depending on the request, the web server collects the requested information or content from data storage or the application servers and responds to the client's request with an appropriate HTTP response. If a web server cannot find the requested information, then it generates an error message.
+
+Lab Tasks
+Ethical hackers or pen testers use numerous tools and techniques to hack a target web server. Recommended labs that will assist you in learning various web server hacking techniques include:
+
+Footprint the web server
+
+Footprint a web server using Netcat and Telnet
+Enumerate web server information using Nmap Scripting Engine (NSE)
+Perform a web server attack
+
+Crack FTP credentials using a Dictionary Attack
+Gain Access to Target Web Server by Exploiting Log4j Vulnerability
+Perform a web server hacking using AI
+
+Perform webserver footprinting and attacks using ShellGPT
